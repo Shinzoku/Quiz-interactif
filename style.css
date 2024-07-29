@@ -1,0 +1,56 @@
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Styling for the quiz container */
+.quiz-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+/* Styling for the header of the quiz */
+.quiz-header {
+    margin-bottom: 20px;
+}
+
+/* Styling for the question text */
+h2 {
+    margin-bottom: 10px;
+}
+
+/* Removing the default list style for the answer list */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Margin for each list item */
+li {
+    margin-bottom: 10px;
+}
+
+/* Styling for the submit button */
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Styling for the submit button on hover */
+button:hover {
+    background-color: #0056b3;
+}

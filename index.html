@@ -7,6 +7,34 @@
     <title>Quiz intéractif</title>
 </head>
 <body>
+    <!-- Main container for the quiz -->
+    <div class="quiz-container" id="quiz">
+        <!-- Header section for the quiz -->
+        <div class="quiz-header">
+            <h2 id="question">Question Text</h2>
+            <ul>
+                <!-- List of possible answers -->
+                <li>
+                    <input type="radio" name="answer" id="a" class="answer">
+                    <label for="a" id="a_text">Answer A</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="b" class="answer">
+                    <label for="b" id="b_text">Answer B</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="c" class="answer">
+                    <label for="c" id="c_text">Answer C</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="d" class="answer">
+                    <label for="d" id="d_text">Answer D</label>
+                </li>
+            </ul>
+        </div>
+        <!-- Submit button -->
+        <button id="submit">Soumettre</button>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
